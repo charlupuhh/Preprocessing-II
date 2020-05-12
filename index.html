@@ -82,7 +82,29 @@
       </div>
     </section>
   </div><!-- container -->
-
+  <div class="form-container">
+    <form action="action_page.php">
+  
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name..">
+  
+      <label for="email">Last email</label>
+      <input type="text" id="email" name="email" placeholder="Your email address..">
+  
+      <label for="package">Package</label>
+      <select id="package" name="package">
+        <option value="sun">Fun in the Sun</option>
+        <option value="mountain">Mountain Excursion</option>
+        <option value="island">Island Getaway</option>
+      </select>
+  
+      <label for="instructions">Special Instructions</label>
+      <textarea id="instructions" name="instructions" placeholder="Any special instructions?" style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
   <footer class="footer">
     <p>Copyright Fun Bus 2018</p>
   </footer>
